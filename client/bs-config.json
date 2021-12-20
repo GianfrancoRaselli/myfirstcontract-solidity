@@ -1,0 +1,12 @@
+{
+  "server": {
+    "baseDir": [
+      "./",
+      "../truffle/build/contracts"
+    ],
+    "routes": {
+      "/libs": "./node_modules"
+    }
+  },
+  "port": "3000"
+}
