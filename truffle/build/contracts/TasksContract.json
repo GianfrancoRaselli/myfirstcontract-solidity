@@ -9062,14 +9062,71 @@
   },
   "networks": {
     "5777": {
-      "events": {},
+      "events": {
+        "0x6549102bed7d1bb5ec529ee14e2ca60ffc1f47f66d4cc6ca713220613cc64c25": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "done",
+              "type": "bool"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "createdAt",
+              "type": "uint256"
+            }
+          ],
+          "name": "TaskCreated",
+          "type": "event"
+        },
+        "0x389dee00d487dd41dd5bf0f43eeaa5b663b3af022d52368df89d388150295f45": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "done",
+              "type": "bool"
+            }
+          ],
+          "name": "TaskToggleDone",
+          "type": "event"
+        }
+      },
       "links": {},
-      "address": "0x6b8F7bFbc68B0A9C14F923032e285AEb35a60EB9",
-      "transactionHash": "0x4d65ad0eea2a91217c8ddf4bcb0ef342a40267f74130836841d09c19dd35240b"
+      "address": "0x9712e4EE619981028f0fdc1299C74e0ABA270693",
+      "transactionHash": "0x2d39bc3edbfec6db964e71f9ab18447ec652f72876c2e2d9119681eced8b1c99"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2021-12-20T20:17:58.147Z",
+  "updatedAt": "2021-12-22T00:18:03.499Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
