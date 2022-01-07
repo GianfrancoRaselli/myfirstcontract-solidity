@@ -5,10 +5,6 @@ contract TasksContract {
 
   uint256 public tasksCounter = 0;
 
-  constructor() {
-    createTask("Primer tarea de ejemplo", "Tengo que hacer algo");
-  }
-
   struct Task {
     uint256 id;
     string title;
@@ -31,6 +27,10 @@ contract TasksContract {
     uint256 id,
     bool done
   );
+
+  constructor() {
+    createTask("Primer tarea de ejemplo", "Tengo que hacer algo");
+  }
 
   function createTask(string memory _title, string memory _desciption) public {
     tasksCounter++;
